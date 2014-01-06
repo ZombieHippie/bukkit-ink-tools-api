@@ -1,0 +1,16 @@
+name: ink
+version: 0.0.1
+description: World manipulation tools
+author: ZombieHippie
+
+main: com.inkblur.bukkit.ink.Ink
+depend: [inkblur-tools-api]
+softdepend: [blur-claims]
+
+commands:
+  sniper:
+    description: Snipe your blocks
+  line:
+    description: Draw straight lines
+  box:
+    description: Create large boxes b/t two points
